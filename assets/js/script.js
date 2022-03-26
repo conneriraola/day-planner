@@ -27,7 +27,7 @@ console.log(hourNow);
 
 
 for ( var i = 0; i < hourArray.length; i++) {
-  console.log(hourArray[i]);
+  console.log(typeof hourArray[i]);
   if (hourNow == hourArray[i]) {
     hourBlockEl[i].classList.add("present");
   } else if (hourNow < hourArray[i]) {
